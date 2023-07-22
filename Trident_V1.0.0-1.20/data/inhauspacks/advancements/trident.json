@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title": "Better Tridents",
+        "description": ["",
+            {"text":"Make Tridents Better.","color":"green"}
+        ],
+        "icon": {
+            "item": "minecraft:trident"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "inhauspacks:death",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

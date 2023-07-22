@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": "Info                          ",
+        "description": ["",
+            {"text":"Tridents with loyalty will \nreturn from the void!","color":"green"},{"text":"\n"},
+            {"text":"Save all tridents from the void!","color":"gold"},{"text":"\n"},
+            {"text":"Tridents are immortal!","color":"gold"},{"text":"\n"},
+            {"text":"Timed auto return!","color":"gold"},{"text":"\n"},
+            {"text":"Instant auto return!","color":"gold"}
+
+        ],
+        "icon": {
+            "item": "minecraft:trident"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "inhauspacks:trident",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
